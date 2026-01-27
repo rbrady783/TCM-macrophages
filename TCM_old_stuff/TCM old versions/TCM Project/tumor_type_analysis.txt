@@ -1,0 +1,121 @@
+-----------------------------------------------------
+Analysis for VEGF by tumor.type:
+Group counts for tumor.type:
+
+    Hemangiosarcoma  Histiocytic sarcoma    Leukemia/Lymphoma              Mammary  
+                   1                    2                    2                    1 
+           Melanoma         Osteosarcoma  Soft tissue sarcoma                  TCC  
+                   5                    9                    1                    1 
+  Thyroid carcinoma  
+                   1 
+
+ANOVA comparing VEGF by tumor.type:
+                       Df Sum Sq Mean Sq F value Pr(>F)
+joined_data$tumor.type  8  12675    1584   1.054  0.444
+Residuals              14  21041    1503               
+-----------------------------------------------------
+
+-----------------------------------------------------
+Analysis for IL.8 by tumor.type:
+Group counts for tumor.type:
+
+    Hemangiosarcoma  Histiocytic sarcoma    Leukemia/Lymphoma              Mammary  
+                   1                    2                    2                    1 
+           Melanoma         Osteosarcoma  Soft tissue sarcoma                  TCC  
+                   5                    9                    1                    1 
+  Thyroid carcinoma  
+                   1 
+
+ANOVA comparing IL.8 by tumor.type:
+                       Df Sum Sq Mean Sq F value Pr(>F)
+joined_data$tumor.type  8   2393   299.2   0.647  0.728
+Residuals              14   6477   462.7               
+-----------------------------------------------------
+
+-----------------------------------------------------
+Analysis for KC.like by tumor.type:
+Group counts for tumor.type:
+
+    Hemangiosarcoma  Histiocytic sarcoma    Leukemia/Lymphoma              Mammary  
+                   1                    2                    2                    1 
+           Melanoma         Osteosarcoma  Soft tissue sarcoma                  TCC  
+                   5                    9                    1                    1 
+  Thyroid carcinoma  
+                   1 
+
+ANOVA comparing KC.like by tumor.type:
+                       Df Sum Sq Mean Sq F value Pr(>F)
+joined_data$tumor.type  8  459.7   57.47   0.373  0.918
+Residuals              14 2158.0  154.14               
+-----------------------------------------------------
+
+-----------------------------------------------------
+Analysis for IL.10 by tumor.type:
+Group counts for tumor.type:
+
+    Hemangiosarcoma  Histiocytic sarcoma    Leukemia/Lymphoma              Mammary  
+                   1                    2                    2                    1 
+           Melanoma         Osteosarcoma  Soft tissue sarcoma                  TCC  
+                   5                    9                    1                    1 
+  Thyroid carcinoma  
+                   1 
+
+ANOVA comparing IL.10 by tumor.type:
+                       Df  Sum Sq Mean Sq F value Pr(>F)
+joined_data$tumor.type  8  913867  114233   0.625  0.745
+Residuals              14 2559726  182838               
+-----------------------------------------------------
+
+-----------------------------------------------------
+Analysis for TNF.a by tumor.type:
+Group counts for tumor.type:
+
+    Hemangiosarcoma  Histiocytic sarcoma    Leukemia/Lymphoma              Mammary  
+                   1                    2                    2                    1 
+           Melanoma         Osteosarcoma  Soft tissue sarcoma                  TCC  
+                   5                    9                    1                    1 
+  Thyroid carcinoma  
+                   1 
+
+ANOVA comparing TNF.a by tumor.type:
+                       Df Sum Sq Mean Sq F value Pr(>F)
+joined_data$tumor.type  8 482088   60261   1.877  0.145
+Residuals              14 449404   32100               
+-----------------------------------------------------
+
+-----------------------------------------------------
+Analysis for TGF.b by tumor.type:
+Group counts for tumor.type:
+
+    Hemangiosarcoma  Histiocytic sarcoma    Leukemia/Lymphoma              Mammary  
+                   1                    2                    2                    1 
+           Melanoma         Osteosarcoma  Soft tissue sarcoma                  TCC  
+                   5                    9                    1                    1 
+  Thyroid carcinoma  
+                   1 
+
+ANOVA comparing TGF.b by tumor.type:
+                       Df Sum Sq Mean Sq F value Pr(>F)
+joined_data$tumor.type  8  0.645 0.08062   0.477  0.853
+Residuals              14  2.365 0.16895               
+-----------------------------------------------------
+
+-----------------------------------------------------
+Analysis for CCL2 by tumor.type:
+Group counts for tumor.type:
+
+    Hemangiosarcoma  Histiocytic sarcoma    Leukemia/Lymphoma              Mammary  
+                   1                    2                    2                    1 
+           Melanoma         Osteosarcoma  Soft tissue sarcoma                  TCC  
+                   5                    9                    1                    1 
+  Thyroid carcinoma  
+                   1 
+
+ANOVA comparing CCL2 by tumor.type:
+                       Df Sum Sq Mean Sq F value Pr(>F)  
+joined_data$tumor.type  8 0.5810 0.07262   3.914 0.0126 *
+Residuals              14 0.2597 0.01855                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+-----------------------------------------------------
+

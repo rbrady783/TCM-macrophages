@@ -1,0 +1,24 @@
+﻿treatment,pERK,pAKT,PTEN Loss,2 or more drivers,Driver
+MacKinley,C ,L ,0,1,"MED12, PPM1D "
+Vogel ,C ,L ,0,1,"BRAF, MED12, TP53 "
+Bliley ,C ,A ,0,0,BRAF 
+CML-10C2 ,C ,A ,0,0,KRAS 
+CTAC ,C ,A ,0,1,"ERBB2, TP53 "
+DH82 ,C ,A ,1,0,PTPN11 
+Moresco ,C ,A ,0,1,"NRAS, RAC1 "
+Jones ,C ,C ,0,1,"NRAS, PTEN, ASXL1 "
+Nike ,C ,C ,0,0,NF1 
+17CM98 ,C ,C ,0,0,KIT 
+CML-6M ,C ,C ,0,0,NF1 
+DEN-HSA ,C ,C ,0,0,None 
+CLL1390 ,C ,C ,1,1,"KDM6A, TET2, TP53 "
+1771 ,C ,C ,0,0,CIC 
+CMT12 ,C ,C ,1,1,"KMT2C, TP53 "
+Gracie ,A ,A ,0,0,SRGAP3 
+STSA-1 ,A ,A ,0,0,NF1 
+OS2.4 ,A ,A ,0,0,TP53 
+Abrams ,A ,C ,1,0,TP53 
+D-17 ,L ,L ,0,0,KRAS (0.19) 
+Parks ,L ,A ,0,1,"CDKN1A, EIF1AX, MED12 "
+HMPOS ,L ,C ,1,0,TP53 
+OSA8 ,L ,C ,1,0,KDM6A 

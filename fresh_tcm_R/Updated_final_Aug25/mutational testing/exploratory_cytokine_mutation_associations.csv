@@ -1,0 +1,4 @@
+mut,cytokine,method,statistic,p.value,p.adj,direction
+2 or more drivers,TGF-b,Wilcoxon rank sum test with continuity correction,20,0.01078113103678477,0.0754679172574934,highest in 2 or more drivers = 1; lowest in 2 or more drivers = 0
+pAKT,CCL2,Kruskal-Wallis rank sum test,7.026789635485287,0.029795591944353304,0.20856914361047313,highest in pAKT = A ; lowest in pAKT = L 
+2 or more drivers,IL-10,Wilcoxon rank sum test with continuity correction,91,0.048979906930175496,0.13278739245268203,highest in 2 or more drivers = 0; lowest in 2 or more drivers = 1

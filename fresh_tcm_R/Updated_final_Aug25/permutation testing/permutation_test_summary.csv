@@ -1,0 +1,7 @@
+Analysis,N_Groups,N_Significant_p05,N_Marginal_p10,Min_P_Value
+4-cat Histology Top,4,0,0,0.7238552289542092
+4-cat Histology Bottom,4,0,0,0.47590481903619275
+5-cat Histology Top,5,0,0,0.8126374725054989
+5-cat Histology Bottom,5,0,0,0.5948810237952409
+Cell Lines Top,25,0,0,0.5209739513024348
+Cell Lines Bottom,25,0,1,0.06374681265936703

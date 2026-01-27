@@ -1,0 +1,6 @@
+mut,cytokine,method,statistic,p.value,direction
+NRAS,VEGF,Wilcoxon rank sum test with continuity correction,0,0.02530377131170598,higher in NRAS=1; lower in NRAS=0
+driver_2,IL-10,Wilcoxon rank sum test with continuity correction,91,0.048979906930175496,higher in driver_2=0; lower in driver_2=1
+NF1,IL-10,Wilcoxon rank sum test with continuity correction,8,0.049684240761478995,higher in NF1=1; lower in NF1=0
+pAKT,CCL2,Kruskal-Wallis rank sum test,7.026789635485287,0.029795591944353304,highest in pAKT=a; lowest in pAKT=l
+pAKT,TGF-b,Kruskal-Wallis rank sum test,7.178304787000428,0.02762173286412867,highest in pAKT=l; lowest in pAKT=a
