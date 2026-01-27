@@ -1,0 +1,8 @@
+cytokine,bottom_quartile_cell_lines,top_quartile_cell_lines,n_bottom,n_top,test_used,p_value
+vegf,D-17 ; 1771 ; 17CM98 ; Bliley ; CLL1390 ; CML-10C2 ,Jones ; MacKinley; Nike ; Moresco ; OS2.4 ; OSA8 ,6,6,Welch's t-test,5.95E-05
+il.8,1771 ; Moresco ; OS2.4 ; OSA8 ; STSA-1 ; Yamane,D-17 ; Abrams ; CML-6M ; CMT12; Nike ; Parks ,6,6,Mann-Whitney U test,0.002164502
+kc.like,CLL1390 ; CTAC ; MacKinley; Moresco ; STSA-1 ; Yamane,D-17 ; 1771 ; 17CM98 ; Abrams ; Gracie ; Parks ,6,6,Student's t-test,0.000572183
+il.10,D-17 ; CLL1390 ; Jones ; MacKinley; Moresco ; OS2.4 ,CML-10C2 ; CML-6M ; CMT12; DH82 ; Nike ; OSA8 ,6,6,Mann-Whitney U test,0.002164502
+ccl2,D-17 ; 1771 ; 17CM98 ; MacKinley; Nike ; OSA8 ,Bliley ; DH82 ; HMPOS ; OS2.4 ; Parks ; STSA-1 ,6,6,Student's t-test,1.93E-05
+tnf.a,D-17 ; 1771 ; Bliley ; CLL1390 ; CTAC ; Moresco ,Abrams ; CML-6M ; CMT12; DH82 ; Nike ; OSA8 ,6,6,Mann-Whitney U test,0.002164502
+tgf.b,1771 ; 17CM98 ; Abrams ; Bliley ; CML-10C2 ; Nike ,CML-6M ; CMT12; Gracie ; Jones ; MacKinley; Parks ,6,6,Welch's t-test,0.001920561

@@ -1,0 +1,2 @@
+"ID","Description","setSize","enrichmentScore","NES","pvalue","p.adjust","qvalue","rank","leading_edge","core_enrichment"
+"HENDRICKS_SMARCA4_TARGETS_UP","HENDRICKS_SMARCA4_TARGETS_UP",42,-0.985188003909712,-1.85806210842547,3.87000236854787e-05,0.217107132875536,0.217107132875536,21,"tags=7%, list=0%, signal=7%","SMARCA4/MMP1/PTPN7"

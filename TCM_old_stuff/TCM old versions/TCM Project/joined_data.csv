@@ -1,0 +1,24 @@
+,VEGF,IL.8,KC.like,IL.10,TNF.a,TGF.b,CCL2,tumor.type,histo,pERK,pAKT,PTEN_loss,driver_2,Driver,MED12,PPM1D,BRAF,TP53,ATRX,ARID1A,KRAS,ERBB2,PTPN11,CCND3,NRAS,NRAS..KRAS..BRAF,RAC1,PIK3CA,EP300,NF1,KIT,PTEN,ASXL1,KDM6A,TET2,CIC,KMT2C,SETD2,SRGAP3,FBXW7,KMT2D,SPEN,CDKN1A,EIF1AX
+D-17 ,58.93,115.53,119.82,76.18,67.88,0.675763386,0.987753438,Osteosarcoma ,1,Low,Low,No,No,Yes,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+1771 ,39.89,68.97,102.83,66.5,80.72,0.652679465,0.749263662,Leukemia/Lymphoma ,3,Constitutive,Constitutive,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No
+17CM98 ,56.29,108.27,113.98,185.92,163.55,0.473560904,0.824336534,Melanoma ,2,Constitutive,Constitutive,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No
+Abrams ,67.22,147.22,129.04,242.95,302.86,1.084006528,0.718973919,Osteosarcoma ,1,Activated,Constitutive,Yes,No,Yes,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+Bliley ,60.97,103.76,95.13,103.92,103.06,0.829064279,0.593660885,TCC ,4,Constitutive,Activated,No,No,Yes,No,No,Yes,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+CLL1390 ,48.2,86.06,92.8,57.29,40.85,0.657450518,0.802985742,Leukemia/Lymphoma ,3,Constitutive,Constitutive,Yes,Yes,Yes,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No
+CML-10C2 ,53.71,97.94,95.15,197.92,143.02,1.231834045,0.841907328,Melanoma ,2,Constitutive,Activated,No,No,Yes,No,No,No,No,No,No,Yes,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+CML-6M ,112,118.23,101.12,528.08,327.13,1.823884716,1.105652104,Melanoma ,2,Constitutive,Constitutive,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+CMT12 ,98.03,116.02,102.4,337.68,531.45,1.136383078,1.436630337,Mammary ,4,Constitutive,Constitutive,Yes,Yes,Yes,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No
+CTAC ,107.88,94.18,93.89,61.73,47.74,0.944310699,1.126691673,Thyroid carcinoma ,4,Constitutive,Activated,No,Yes,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+DEN-HSA ,106.12,99.88,98.43,96.86,149.27,1.024336313,1.045235265,Hemangiosarcoma ,1,Constitutive,Constitutive,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+DH82 ,121.26,91.02,101.3,221.15,449.71,1.135438449,1.175480757,Histiocytic sarcoma ,3,Constitutive,Activated,Yes,No,Yes,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+Gracie ,86.81,95.57,104.93,161.97,205.32,1.102986983,1.139365868,Osteosarcoma ,1,Activated,Activated,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No
+HMPOS ,99.86,86.75,94.13,81.38,110.83,1.665898613,1.14359899,Osteosarcoma ,1,Low,Constitutive,Yes,No,Yes,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+Jones ,187.56,93.68,98.53,54.47,55.2,2.060269965,1.006137841,Melanoma ,2,Constitutive,Constitutive,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Yes,No,No,No,No,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No
+McKinley ,129.03,92.6,93.61,62.5,84.78,0.941371245,1.124582981,Osteosarcoma ,1,Constitutive,Low,No,Yes,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+Nike ,158.43,114.38,102.36,1489.22,701.32,1.057275919,1.128801414,Histiocytic sarcoma ,3,Constitutive,Constitutive,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+Moresco ,139.52,80.34,82.55,68.63,69.28,1.001224511,1,Osteosarcoma ,1,Constitutive,Activated,No,Yes,Yes,No,No,No,No,No,No,No,No,No,No,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+OS2.4 ,144.47,69.17,95,53.48,51.25,1.232916849,0.959329675,Osteosarcoma ,1,Activated,Activated,No,No,Yes,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+OSA8 ,136.71,69.93,99,1438.08,716.96,1.119869749,1.063889775,Osteosarcoma ,1,Low,Constitutive,Yes,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No
+Parks ,121.69,110.07,104.49,91.55,83.35,0.800103053,0.806857467,Melanoma ,2,Low,Activated,No,Yes,Yes,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,Yes
+STSA-1 ,133.4,74.56,81.4,123.62,280.76,1.098609826,0.791397971,Soft tissue sarcoma ,1,Activated,Activated,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No
+Vogel ,107.85,62.14,84.69,74.12,65.83,0.948535881,0.781772991,Osteosarcoma ,1,Constitutive,Low,No,Yes,Yes,Yes,No,Yes,Yes,No,No,No,No,No,No,No,Yes,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No,No

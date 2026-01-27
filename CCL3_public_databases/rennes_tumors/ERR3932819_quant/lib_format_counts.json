@@ -1,0 +1,22 @@
+{
+    "read_files": "[ /scratch/alpine/rvbrady@colostate.edu/sra/sra/fastq/ERR3932819_1.fastq, /scratch/alpine/rvbrady@colostate.edu/sra/sra/fastq/ERR3932819_2.fastq]",
+    "expected_format": "IU",
+    "compatible_fragment_ratio": 1.0,
+    "num_compatible_fragments": 10164472,
+    "num_assigned_fragments": 10164472,
+    "num_frags_with_concordant_consistent_mappings": 8503915,
+    "num_frags_with_inconsistent_or_orphan_mappings": 1730952,
+    "strand_mapping_bias": 0.5231965512355192,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 4449219,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 4054696,
+    "SF": 780012,
+    "SR": 950940,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}

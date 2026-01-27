@@ -1,0 +1,8 @@
+Cytokine,Top Stimulators,Bottom Stimulators,Test,p-value
+VEGF,"Jones , Moresco , OS2.4 , Nike , MacKinley, OSA8 ","1771 , CLL1390 , CML-10C2 , 17CM98 , D-17 , Bliley ",Welch's t-test,<0.001
+IL-8,"Abrams , CML-6M , CMT12, D-17 , Nike , Parks ","Vogel , 1771 , OS2.4 , OSA8 , Yamane, STSA-1 ",Mann-Whitney,0.0022
+KC-like,"Abrams , D-17 , 17CM98 , Gracie , Parks , 1771 ","STSA-1 , Moresco , Vogel , Yamane, MacKinley, CTAC ",Student's t-test,<0.001
+IL-10,"Nike , OSA8 , CML-6M , CMT12, CML-10C2 , DH82 ","CLL1390 , Moresco , D-17 , OS2.4 , Jones , MacKinley",Mann-Whitney,0.0022
+CCL2,"HMPOS , Parks , OS2.4 , STSA-1 , Bliley , DH82 ","Nike , 1771 , D-17 , 17CM98 , MacKinley, OSA8 ",Student's t-test,<0.001
+TNF-?,"OSA8 , Nike , CML-6M , CMT12, DH82 , Abrams ","CLL1390 , D-17 , Moresco , CTAC , 1771 , Bliley ",Mann-Whitney,0.0022
+TGF-?,"MacKinley, CMT12, Jones , Parks , Gracie , CML-6M ","Abrams , 17CM98 , 1771 , CML-10C2 , Bliley , Nike ",Welch's t-test,0.0019
