@@ -2,7 +2,7 @@
 
 Analysis code for: "Tumor-conditioned media from canine cancer cell lines induces cytokine secretion by macrophages"
 
-[![DOI](https://zenodo.org/badge/DOI/XXXX.svg)](https://doi.org/XXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18499279.svg)](https://doi.org/10.5281/zenodo.18499279)
 
 ## Data Availability
 
