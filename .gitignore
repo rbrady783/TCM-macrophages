@@ -1,5 +1,5 @@
-# Folders to exclude
-CCL3_public_databases/
+# Old/unused folders
+TCM old stuff/
 TCM_old_stuff/
 Submitted to CII/
 Submitted to CIR/
@@ -7,25 +7,38 @@ Submitted to PlosOne/
 TCM Final Data/
 01_cytokine_analysis/Old not using/
 01_cytokine_analysis/PLOS one figs/
-01_cytokine_analysis/fresh_tcm_R.Rproj
 02_RNAseq_analysis/Old data not using/
+02_RNAseq_analysis/Old pics not using/
 02_RNAseq_analysis/Output/CorrelationTables/old stuff not using/
 02_RNAseq_analysis/Pairwise code/old bad results*/
 02_RNAseq_analysis/Pairwise code/old code/
 02_RNAseq_analysis/RUV_TPM code/old code not using/
-02_RNAseq_analysis/TCM_RNA.Rproj
-FETCH_HEAD
-git
+CCL3_public_databases/
+
+# Output figure files (not code)
+*.png
+*.pdf
+*.eps
+*.tif
+*.tiff
+*.html
+
+# Specific files to exclude
+*did not use*
+*not using*
+*Bold lettering*
 
 # RStudio
 *.Rproj
 .Rproj.user/
 
-# Output files
-*.tif
-*.tiff
-*.xlsx
-*.docx
-*.pptx
+# Large output files
 *.prism
 *.doc
+*.docx
+*.pptx
+*.xlsx
+
+# Other
+FETCH_HEAD
+git
