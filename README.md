@@ -7,9 +7,6 @@ Analysis code for: "Distinct tumor genomic signatures underlie canine macrophage
 ## Data Availability
 
 - **Analysis code and raw data:** This GitHub repository, archived on Zenodo (DOI: [10.5281/zenodo.18499208](https://doi.org/10.5281/zenodo.18499208))
-- **RNA-seq data:** Normalized RNA-seq expression data (TPM and RUVg-normalized counts) for the FACC canine cancer cell line panel were previously generated and are described in Farrell et al. (2024) PLoS ONE 19(5): e0303470. https://doi.org/10.1371/journal.pone.0303470
-- **Whole-exome sequencing data:** Previously published in Das et al. (2019) Mol Cancer Ther 18(8):1460-1471. https://doi.org/10.1158/1535-7163.MCT-18-1346
-- **CCL3 in histiocytic sarcoma:** NCBI BioProject PRJDB11462, PRJEB36828, PRJDB17594
 
 ## Repository Structure
 
@@ -71,3 +68,9 @@ R (≥4.0). Required packages are listed at the top of each script.
 ## License
 
 MIT License
+
+## Other Data
+
+- **RNA-seq data:** Normalized RNA-seq expression data (TPM and RUVg-normalized counts) for the FACC canine cancer cell line panel were previously generated and are described in Farrell et al. (2024) PLoS ONE 19(5): e0303470. https://doi.org/10.1371/journal.pone.0303470
+- **Whole-exome sequencing data:** Previously published in Das et al. (2019) Mol Cancer Ther 18(8):1460-1471. https://doi.org/10.1158/1535-7163.MCT-18-1346
+- **CCL3 in histiocytic sarcoma:** NCBI BioProject PRJDB11462, PRJEB36828, PRJDB17594
