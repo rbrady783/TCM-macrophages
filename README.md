@@ -71,6 +71,6 @@ MIT License
 
 ## Other Data
 
-- **RNA-seq data:** Normalized RNA-seq expression data (TPM and RUVg-normalized counts) for the FACC canine cancer cell line panel were previously generated and are described in Farrell et al. (2024) PLoS ONE 19(5): e0303470. https://doi.org/10.1371/journal.pone.0303470. Users who wish to reproduce the RNA-seq analyses in this study should contact the corresponding author of that paper to request access.
+- **RNA-seq data:** Normalized RNA-seq expression data (TPM and RUVg-normalized counts) for the FACC canine cancer cell line panel were previously generated and are described in Farrell et al. (2024) PLoS ONE 19(5): e0303470. https://doi.org/10.1371/journal.pone.0303470. Users who wish to reproduce the RNA-seq analyses in this study should contact the corresponding author of that paper to request access. All scripts and their output files are fully reproduced in this repository, so the analyses can be examined and verified in detail.
 - **Whole-exome sequencing data:** Previously published in Das et al. (2019) Mol Cancer Ther 18(8):1460-1471. https://doi.org/10.1158/1535-7163.MCT-18-1346
 - **CCL3 in histiocytic sarcoma:** NCBI BioProject PRJDB11462, PRJEB36828, PRJDB17594
