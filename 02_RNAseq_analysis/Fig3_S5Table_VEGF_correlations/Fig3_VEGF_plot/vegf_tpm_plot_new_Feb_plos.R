@@ -81,31 +81,33 @@ stats_df <- corr_df %>%
                 pval = P_value, qval = qvalue) %>%
   mutate(
     label = paste0(
-      "ρ = ", round(rho,3), "\n",
+      "\u03c1 = ", round(rho,3), "\n",
       "q = ", signif(qval,3)
     ),
     # Set same factor order
     GeneName = factor(GeneName, 
-                      levels = c("MVB12A", "ENSCAFG00000024217 (TRAPPC5)"))
+                      levels = c("MVB12A", "ENSCAFG00000024217 (TRAPPC5)")),
+    x_pos = c(9.5, 96),
+    y_pos = c(Inf, Inf)
   )
 
 # 7) Plot with PLOS requirements
 p <- ggplot(plot_df, aes(x = TPM, y = mean_modz)) +
-  geom_point(size = 3, alpha = 0.8, color = "#2C3E50") +
+  geom_point(size = 2, alpha = 0.8, color = "#2C3E50") +
   geom_smooth(method = "lm", se = TRUE,
               linetype = "dashed", color = "#E74C3C") +
   geom_text(
     data    = stats_df,
-    aes(x = -Inf, y = -Inf, label = label),
-    hjust   = 1.1, vjust = 1.1,
+    aes(x = x_pos, y = y_pos, label = label),
+    hjust   = -0.1, vjust = 1.5,
     size    = 3.5,
     color   = "black",
     family  = "Arial"
   ) +
-  facet_wrap(~ GeneName, scales = "free") +
+  facet_wrap(~ GeneName, scales = "free_x") +
   labs(
     x = "Expression (TPM)",
-    y = "Mean VEGF Modified Z-score"
+    y = "Mean VEGF modified z-score"
   ) +
   theme_minimal(base_size = 12, base_family = "Arial") +
   theme(
@@ -120,7 +122,7 @@ p <- ggplot(plot_df, aes(x = TPM, y = mean_modz)) +
 ggsave(
   filename = "spearman_two_genes.tif",
   plot     = p,
-  width    = 8,
+  width    = 7.5,
   height   = 4,
   units    = "in",
   dpi      = 300,
@@ -132,7 +134,7 @@ ggsave(
 ggsave(
   filename = "spearman_two_genes.eps",
   plot     = p,
-  width    = 8,
+  width    = 7.5,
   height   = 4,
   units    = "in",
   dpi      = 300,
