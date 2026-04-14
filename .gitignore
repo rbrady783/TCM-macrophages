@@ -1,23 +1,3 @@
-# Old/unused folders
-rawcount.csv
-NormalizedGeneExpression_TPM.csv
-STAR_GeneCounts_RNAseq_UQ_RUVg.csv
-TCM old stuff/
-TCM_old_stuff/
-Submitted to CII/
-Submitted to CIR/
-Submitted to PlosOne/
-TCM Final Data/
-01_cytokine_analysis/Old not using/
-01_cytokine_analysis/PLOS one figs/
-02_RNAseq_analysis/Old data not using/
-02_RNAseq_analysis/Old pics not using/
-02_RNAseq_analysis/Output/CorrelationTables/old stuff not using/
-02_RNAseq_analysis/Pairwise code/old bad results*/
-02_RNAseq_analysis/Pairwise code/old code/
-02_RNAseq_analysis/RUV_TPM code/old code not using/
-CCL3_public_databases/
-
 # Output figure files (not code)
 *.png
 *.pdf
@@ -25,11 +5,6 @@ CCL3_public_databases/
 *.tif
 *.tiff
 *.html
-
-# Specific files to exclude
-*did not use*
-*not using*
-*Bold lettering*
 
 # RStudio
 *.Rproj
