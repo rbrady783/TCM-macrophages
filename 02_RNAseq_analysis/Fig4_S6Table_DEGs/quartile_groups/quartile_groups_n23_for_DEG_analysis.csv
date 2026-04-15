@@ -1,0 +1,8 @@
+"cytokine","bottom_quartile_cell_lines","top_quartile_cell_lines","n_bottom","n_top","test_used","p_value"
+"vegf","1771 ; CLL1390 ; CML-10C2 ; 17CM98 ; D-17 ; Bliley ","OSA8 ; MacKinley; Nike ; OS2.4 ; Moresco ; Jones ",6,6,"Welch's t-test",5.95067090496545e-05
+"il.8","1771 ; OS2.4 ; OSA8 ; Yamane; STSA-1 ; Moresco ","Parks ; Nike ; D-17 ; CMT12; CML-6M ; Abrams ",6,6,"Mann-Whitney U test",0.00216450216450216
+"kc.like","STSA-1 ; Moresco ; Yamane; MacKinley; CTAC ; CLL1390 ","1771 ; Parks ; Gracie ; 17CM98 ; D-17 ; Abrams ",6,6,"Student's t-test",0.000572182868086435
+"il.10","CLL1390 ; Moresco ; D-17 ; OS2.4 ; Jones ; MacKinley","DH82 ; CML-10C2 ; CMT12; CML-6M ; OSA8 ; Nike ",6,6,"Mann-Whitney U test",0.00216450216450216
+"ccl2","Nike ; 1771 ; D-17 ; 17CM98 ; MacKinley; OSA8 ","DH82 ; Bliley ; STSA-1 ; OS2.4 ; Parks ; HMPOS ",6,6,"Student's t-test",1.93224684618211e-05
+"tnf.a","CLL1390 ; D-17 ; Moresco ; CTAC ; 1771 ; Bliley ","Abrams ; DH82 ; CMT12; CML-6M ; Nike ; OSA8 ",6,6,"Mann-Whitney U test",0.00216450216450216
+"tgf.b","Abrams ; 17CM98 ; 1771 ; CML-10C2 ; Bliley ; Nike ","CML-6M ; Gracie ; Parks ; Jones ; CMT12; MacKinley",6,6,"Welch's t-test",0.00192056076993776
