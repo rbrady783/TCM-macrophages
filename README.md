@@ -10,56 +10,47 @@ Analysis code for: "Distinct tumor genomic signatures underlie canine macrophage
 
 ## Repository Structure
 
-### 01_cytokine_analysis/
+The repository is organized into three top-level folders, with subfolders matching the figure or table each analysis supports.
+
+### `01_cytokine_analysis/`
 
 Cytokine secretion analysis from macrophages treated with tumor-conditioned media.
 
-| Figure/Table | Script |
-|---|---|
-| Fig 1 (Modified z-scores) | `modz_plots.R`, `get modified z scores from raw data.R` |
-| Fig 2 (Cytokine correlation heatmap) | `correlations between cytokines with heatmap.R` |
-| S1 Fig (Cell counts by tumor type) | `Plos_one_figs/S1 Fig for PLOS one.R` |
-| S2 Fig (Raw values by donor) | `Plos_one_figs/S2 Fig for plos one/` |
-| S3 Table (Cell count/histology effects) | `impact of cell count on cytokine levels.R`, `impact of histo on cytokine levels.R`, `cell count by histo final.R` |
-| S4 Table (Cytokine correlations) | `correlations between cytokines with heatmap.R` |
-| Text (ICCs) | `donor variability- ICCs and stats.R`, `updated_ICCs_for_PLOS.R` |
-| Text (Permutation testing) | `permutation testing (histo and cell line).R` |
-| Text (Mutational analysis) | `mutation_phosphorylation testing.R` |
+- **`S1Fig_cell_counts/`** — Cancer cell counts at TCM harvest (S1 Fig)
+- **`Table1_ICCs/`** — Intraclass correlation coefficients for donor variability (Table 1)
+- **`Fig1_modz_scores/`** — Modified z-score calculation and plotting (Fig 1)
+- **`Fig2_S4Table_cytokine correlations/`** — Spearman correlations between cytokines + heatmap (Fig 2, S4 Table)
+- **`S2Fig_raw_donor_values/`** — Raw cytokine values by donor (S2 Fig)
+- **`S3Table_cell_count_histo_effects/`** — Effects of cell count and histology on cytokine levels (S3 Table A & B)
+- **`Text_permutation_testing/`** — Permutation tests for histology and cell line effects
+- **`Text_mutation_phosphorylation/`** — Mutation and phosphorylation status analysis
+- **`Fig6_S7Table_VEGF_exosomes/`** — VEGF / exosome fractionation analyses (Fig 6, S7 Table), with subfolders for each panel:
+  - `Fig6A_S7Table_TCM_fractionation/` — Whole vs depleted vs exosome-only fractions
+  - `Fig6C_MVB12A_VEGF_stimulation/` — MVB12A high vs low validation (with/without CIN, with/without HSA)
+  - `Fig6D_exosomal_VEGF_ratios/` — Exosomal vs free VEGF ratio analysis
+  - `TCM_VEGF_correlation/` — TCM VEGF content vs macrophage VEGF secretion
+- **`Fig7_S3Fig_S8Table_CCL3/`** — CCL3-related analyses (Fig 7, S3 Fig, S8 Table), with subfolders for:
+  - `Fig7A_CCL3_levels/` — CCL3 protein/mRNA across cell lines
+  - `Fig7B_S8Table_CCL3_dose_response/` — Recombinant CCL3 dose-response
+  - `S3Fig_CCL3_knockdown/` — CCL3 siRNA knockdown validation in DH82
 
-**CCL3/ (Fig 7, S3 Fig, S8 Table):**
+### `02_RNAseq_analysis/`
 
-- `ccl3_stim_data_inverse__log_analysis.R` - Dose-response analysis
-- `describing ccl3 levels.R` - CCL3 protein/mRNA levels
-- `plot_ccl3_stim.R` - Figure generation
-- `ccl3_kd_tnfa.R` - CCL3 knockdown validation (S3 Fig)
+RNA-seq correlation and differential expression analyses.
 
-**VEGF_exos/ (Fig 6, S7 Table):**
+- **`gene_names.csv`** — Shared lookup table mapping ENSCAF gene IDs to human-readable gene names. Used to interpret outputs in the subfolders below.
+- **`Fig3_S5Table_VEGF_correlations/`** — Spearman correlations between RNA-seq expression and cytokine modified z-scores (Fig 3, S5 Table), with per-cytokine analyses and the Fig 3 plot generation
+- **`Fig4_S6Table_DEGs/`** — Differential expression analysis between top/bottom modified z-score quartiles (Fig 4, S6 Table), with subfolders for:
+  - `quartile_groups/` — Quartile group assignment and statistical comparisons
+  - `per_cytokine_DESeq2/` — DESeq2 pipeline run separately for each cytokine
+  - `Fig4_volcano_plots/` — Volcano plot generation
+- **`Fig5_GSEA/`** — Gene set enrichment analysis (Fig 5), with subfolders for:
+  - `per_cytokine_GSEA/` — GSEA against MSigDB Hallmark, C2, C6, and C7 collections per cytokine
+  - `Fig5_swimlane_plot/` — Swimlane plot generation
 
-- `exo_conditions_vegf.R` - Exosome fractionation analysis
-- `mvb12a_vegf_analysis_without_CIN.R` - MVB12A validation
-- `analyze ratios of high vs low mvb12a.R` - Exosomal vs free VEGF
-- `vegf_in_tcm_vs_macs.R` - VEGF in TCM vs macrophage secretion
-- `exo_conditions_per_cell_line.R` - Individual cell line results (S7 Table)
+### `03_prism_files/`
 
-### 02_RNAseq_analysis/
-
-RNA-seq correlation and differential expression analysis.
-
-**RUV_TPM code/ (Fig 3, S5 Table):**
-
-- `*_updated_with_both_RUVg_TPM.R` - Spearman correlations for each cytokine
-- `Make vegf_TPM_plot/vegf_tpm_spearmans_plots.R` - Fig 3 generation
-
-**Pairwise code/new, good pairwise results/ (Fig 4, S6 Table):**
-
-- `*_pairwise_final.R` - DESeq2 analysis for each cytokine
-- `PLos one volcano/plos one volcano plots.R` - Volcano plot generation
-- `comparing_top&bottom_quartiles_stats.R` - S6 Table statistics
-
-**GSEA/ (Fig 5):**
-
-- `*_gsea.R` - GSEA for each cytokine
-- `gsea_swimline_for_plos.R` - Swimlane plot
+GraphPad Prism files containing source data and analyses for figures generated in Prism rather than R. Requires GraphPad Prism to open.
 
 ## Requirements
 
