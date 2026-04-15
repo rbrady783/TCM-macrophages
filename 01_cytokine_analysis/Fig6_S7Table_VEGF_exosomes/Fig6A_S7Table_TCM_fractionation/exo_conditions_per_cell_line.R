@@ -120,11 +120,11 @@ for(cell_line in cell_lines) {
 }
 
 # ==========================================
-# CREATE S8 TABLE WITH 95% CIs
+# CREATE S7 TABLE WITH 95% CIs
 # ==========================================
 
 # Extract complete statistics for whole vs exosome-only comparison
-s8_table_data <- list()
+S7_table_data <- list()
 
 for(cell_line in cell_lines) {
   # Get model and emmeans
@@ -139,7 +139,7 @@ for(cell_line in cell_lines) {
   # Extract whole vs exosome-only comparison
   comparison_idx <- grep("Whole.*Exosome Only", pairwise_ci$contrast)
   
-  s8_table_data[[cell_line]] <- data.frame(
+  S7_table_data[[cell_line]] <- data.frame(
     Cell_Line = cell_line,
     Estimate = pairwise_ci$estimate[comparison_idx],
     SE = pairwise_ci$SE[comparison_idx],
@@ -152,7 +152,7 @@ for(cell_line in cell_lines) {
 }
 
 # Combine into single table
-s8_table <- bind_rows(s8_table_data) %>%
+S7_table <- bind_rows(S7_table_data) %>%
   mutate(
     `Cell Line` = Cell_Line,
     `Estimate` = round(Estimate, 1),
@@ -165,21 +165,21 @@ s8_table <- bind_rows(s8_table_data) %>%
   select(`Cell Line`, Estimate, SE, `95% CI`, df, t, p)
 
 # Print table
-cat("\n=== S8 TABLE: Complete Statistics ===\n")
-print(s8_table, row.names = FALSE)
+cat("\n=== S7 TABLE: Complete Statistics ===\n")
+print(S7_table, row.names = FALSE)
 
 # Save as CSV
-write.csv(s8_table, "S8_Table_Individual_CellLines.csv", row.names = FALSE)
+write.csv(S7_table, "S7_Table_Individual_CellLines.csv", row.names = FALSE)
 
-cat("\nTable saved as S8_Table_Individual_CellLines.csv\n")
+cat("\nTable saved as S7_Table_Individual_CellLines.csv\n")
 
 ####################################
 
 # ==========================================
-# CREATE COMPLETE S8 TABLE - ALL PAIRWISE COMPARISONS
+# CREATE COMPLETE S7 TABLE - ALL PAIRWISE COMPARISONS
 # ==========================================
 
-s8_complete_data <- list()
+S7_complete_data <- list()
 
 for(cell_line in cell_lines) {
   # Get model and emmeans
@@ -194,7 +194,7 @@ for(cell_line in cell_lines) {
   
   # Extract all three comparisons
   for(i in 1:nrow(pairwise_ci)) {
-    s8_complete_data[[paste(cell_line, i)]] <- data.frame(
+    S7_complete_data[[paste(cell_line, i)]] <- data.frame(
       Cell_Line = cell_line,
       Comparison = as.character(pairwise_ci$contrast[i]),
       Estimate = pairwise_ci$estimate[i],
@@ -209,7 +209,7 @@ for(cell_line in cell_lines) {
 }
 
 # Combine and format
-s8_complete <- bind_rows(s8_complete_data) %>%
+S7_complete <- bind_rows(S7_complete_data) %>%
   mutate(
     `Cell Line` = Cell_Line,
     `Comparison` = Comparison,
@@ -229,10 +229,10 @@ s8_complete <- bind_rows(s8_complete_data) %>%
   select(`Cell Line`, Comparison, Estimate, SE, `95% CI`, df, t, `p-value`, Sig)
 
 # Print
-cat("\n=== COMPLETE S8 TABLE ===\n")
-print(s8_complete, row.names = FALSE)
+cat("\n=== COMPLETE S7 TABLE ===\n")
+print(S7_complete, row.names = FALSE)
 
 # Save
-write.csv(s8_complete, "S8_Table_AllComparisons.csv", row.names = FALSE)
+write.csv(S7_complete, "S7_Table_AllComparisons.csv", row.names = FALSE)
 
 cat("\nTable saved!\n")
